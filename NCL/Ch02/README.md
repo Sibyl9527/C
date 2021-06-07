@@ -1,2 +1,2 @@
 常數與變數  
-C
+Constant and Variable
