@@ -1,0 +1,4 @@
+#define PRESIDENT 15000
+#define HI_CLASS 9000
+#define MID_CLASS 6000
+#define LOW_CLASS 3500

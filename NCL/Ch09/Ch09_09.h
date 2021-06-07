@@ -1,0 +1,7 @@
+#define RED "紅色"
+#define ORANGE "橙色"
+#define YELLOW "黃色"
+#define GREEN "綠色"
+#define BLUE "藍色"
+#define INDIGO "靛色"
+#define VIOLET "紫色"

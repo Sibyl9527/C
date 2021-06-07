@@ -1,0 +1,1 @@
+#define TRI_AREA base * height / 2
