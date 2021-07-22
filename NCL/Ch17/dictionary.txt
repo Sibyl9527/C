@@ -1,0 +1,7 @@
+population 族群
+density 密度
+dispersion 分布
+clumped 聚集
+uniform 一致
+random 隨機
+biogeography 生物地理學

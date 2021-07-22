@@ -1,0 +1,7 @@
+Ming 78.12 3
+Hua 98.01 1
+Ying 87.14 2
+Lili 66.81 6
+Tsai 74.59 4
+Fang 67.39 5
+Fong 50.11 7

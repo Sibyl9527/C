@@ -1,0 +1,8 @@
+soy_sauce 48
+sesame_oil 50
+salad_oil 100
+salt 35
+sugar 20
+MSG 40
+pepper 41
+chicken_soup 60

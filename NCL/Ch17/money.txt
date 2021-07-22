@@ -1,0 +1,5 @@
+MacotoBank 0.025
+KGIBank 0.019
+JihSunBank 0.027
+TaishinBank 0.024
+FarEasternBank 0.020

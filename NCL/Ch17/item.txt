@@ -1,0 +1,21 @@
+01 CPU
+  ->  PIII 650MHZ
+02 Motherboard
+  ->  ASS-3500
+03 Memory
+  ->  256 MB
+04 Hard drive
+  ->  80 GB
+05 CD-ROM
+  ->  52X
+06 Sound card
+  ->  AUDIO CDBK
+07 Graphics card
+  ->  3D 3000
+08 Network card
+  ->  XX-LINK
+09 Modem
+  ->  56K
+10 Power supply
+  ->  ATX
+11 Monitor  ->  17"

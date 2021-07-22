@@ -1,0 +1,42 @@
+1 // Purpose: Continue hw17_02, separate numbers and alphabets to abcnum.txt and abcaph.txt
+2 // File Name: hw17_03
+3 // Completion Date: 20210711
+4 #include <stdio.h>
+5 #include <stdlib.h>
+6 #include <ctype.h>
+7 
+8 int main(void)
+9 { 
+10   FILE *stream;
+11   FILE *streamNum;
+12   FILE *streamAph;
+13   char ch;
+14   
+15   stream = fopen("abc.txt", "r"); // read only stream
+16   streamNum = fopen("abcnum.txt", "w"); // write for num
+17   streamAph = fopen("abcaph.txt", "w"); // write for alphabet
+18   
+19   if (stream == NULL || streamNum == NULL || streamAph == NULL) {
+20 	puts("File opened failed!");
+21 	fclose(stream);
+22 	fclose(streamNum);
+23 	fclose(streamAph);
+24 	return EXIT_FAILURE;
+25   } else {
+26 	puts("File opened successfully!");
+27 	while ((ch = fgetc(stream)) != EOF) {
+28 	  if (isalpha(ch) != 0) {
+29 		fputc(ch, streamAph);
+30 	  } else if (isalnum(ch) != 0) {
+31 		fputc(ch, streamNum);
+32 	  }
+33 	}
+34 	puts("");
+35   }  
+36   fclose(stream);
+37   fclose(streamNum);
+38   fclose(streamAph);
+39   puts("File closed successfully, please check abcnum.txt and abcaph.txt!");
+40   
+41   return EXIT_SUCCESS;
+42 }  
